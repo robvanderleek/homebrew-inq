@@ -64,7 +64,7 @@ resource "platformdirs" do
     sha256 "8dbca0739d487e5bd35ab3ca4b36e11c4078f3a234bfce294b0a0291363404de"
   end
 
-resource "textual" do
+  resource "textual" do
     url "https://files.pythonhosted.org/packages/72/23/8c709655c5f2208ee82ab81b8104802421865535c278a7649b842b129db1/textual-8.1.1.tar.gz"
     sha256 "eef0256a6131f06a20ad7576412138c1f30f92ddeedd055953c08d97044bc317"
   end
