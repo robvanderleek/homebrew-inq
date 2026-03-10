@@ -3,8 +3,8 @@ class Inq < Formula
 
   desc ""
   homepage ""
-  url "https://files.pythonhosted.org/packages/0a/e4/65c00826bd2b6aeca10095df67b848b9f7d34db1aac00ae8dd0b1872dfd7/inq-0.2.1.tar.gz"
-  sha256 "adfb1cafb5ecf91f0550562b8c341a2ea8bb190c5566362bf786f0860d3750ee"
+  url "https://files.pythonhosted.org/packages/92/10/d42868854ec45465ac22e572d084d9dfdac0c9aadbfd5c2dcbe54830d4e2/inq-0.3.0.tar.gz"
+  sha256 "a69073d8aefd5c9702133345839abc0f9e194b1acbc38d7ee4ebb6fcb02878fd"
   license ""
 
   depends_on "python@3.14"
@@ -20,13 +20,13 @@ class Inq < Formula
   end
 
   resource "inquirer-textual" do
-    url "https://files.pythonhosted.org/packages/68/a5/d3f0d89a16bb200cd42b4417f3bd0820756c510856c0c364a5deee677be5/inquirer_textual-0.4.0.tar.gz"
-    sha256 "5b472299d0b53998c2b2099822b6407ee27691a8992849cdb9c55eac5591e358"
+    url "https://files.pythonhosted.org/packages/ea/cc/866d5b6c4e7e1427cf96e755dc8c1cd05229dfbf39b17fefdc3af1f3d4ae/inquirer_textual-0.5.0.tar.gz"
+    sha256 "4c3f57c96c242629e11b7883027f7a2f32f2d6753060750323bac0a0988f17e8"
   end
 
   resource "linkify-it-py" do
-    url "https://files.pythonhosted.org/packages/2a/ae/bb56c6828e4797ba5a4821eec7c43b8bf40f69cda4d4f5f8c8a2810ec96a/linkify-it-py-2.0.3.tar.gz"
-    sha256 "68cda27e162e9215c17d786649d1da0021a451bdc436ef9e0fa0ba5234b9b048"
+    url "https://files.pythonhosted.org/packages/2e/c9/06ea13676ef354f0af6169587ae292d3e2406e212876a413bf9eece4eb23/linkify_it_py-2.1.0.tar.gz"
+    sha256 "43360231720999c10e9328dc3691160e27a718e280673d444c38d7d3aaa3b98b"
   end
 
   resource "markdown-it-py" do
@@ -44,9 +44,9 @@ class Inq < Formula
     sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
   end
 
-  resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/1b/04/fea538adf7dbbd6d186f551d595961e564a3b6715bdf276b477460858672/platformdirs-4.9.2.tar.gz"
-    sha256 "9a33809944b9db043ad67ca0db94b14bf452cc6aeaac46a88ea55b26e2e9d291"
+resource "platformdirs" do
+    url "https://files.pythonhosted.org/packages/19/56/8d4c30c8a1d07013911a8fdbd8f89440ef9f08d07a1b50ab8ca8be5a20f9/platformdirs-4.9.4.tar.gz"
+    sha256 "1ec356301b7dc906d83f371c8f487070e99d3ccf9e501686456394622a01a934"
   end
 
   resource "pygments" do
@@ -64,14 +64,14 @@ class Inq < Formula
     sha256 "8dbca0739d487e5bd35ab3ca4b36e11c4078f3a234bfce294b0a0291363404de"
   end
 
-  resource "textual" do
-    url "https://files.pythonhosted.org/packages/f7/08/1e1f705825359590ddfaeda57653bd518c4ff7a96bb2c3239ba1b6fc4c51/textual-8.0.0.tar.gz"
-    sha256 "ce48f83a3d686c0fac0e80bf9136e1f8851c653aa6a4502e43293a151df18809"
+resource "textual" do
+    url "https://files.pythonhosted.org/packages/72/23/8c709655c5f2208ee82ab81b8104802421865535c278a7649b842b129db1/textual-8.1.1.tar.gz"
+    sha256 "eef0256a6131f06a20ad7576412138c1f30f92ddeedd055953c08d97044bc317"
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/5a/b6/3e681d3b6bb22647509bdbfdd18055d5adc0dce5c5585359fa46ff805fdc/typer-0.24.0.tar.gz"
-    sha256 "f9373dc4eff901350694f519f783c29b6d7a110fc0dcc11b1d7e353b85ca6504"
+    url "https://files.pythonhosted.org/packages/f5/24/cb09efec5cc954f7f9b930bf8279447d24618bb6758d4f6adf2574c41780/typer-0.24.1.tar.gz"
+    sha256 "e39b4732d65fbdcde189ae76cf7cd48aeae72919dea1fdfc16593be016256b45"
   end
 
   resource "typing-extensions" do
@@ -80,8 +80,8 @@ class Inq < Formula
   end
 
   resource "uc-micro-py" do
-    url "https://files.pythonhosted.org/packages/91/7a/146a99696aee0609e3712f2b44c6274566bc368dfe8375191278045186b8/uc-micro-py-1.0.3.tar.gz"
-    sha256 "d321b92cff673ec58027c04015fcaa8bb1e005478643ff4a500882eaab88c48a"
+    url "https://files.pythonhosted.org/packages/78/67/9a363818028526e2d4579334460df777115bdec1bb77c08f9db88f6389f2/uc_micro_py-2.0.0.tar.gz"
+    sha256 "c53691e495c8db60e16ffc4861a35469b0ba0821fe409a8a7a0a71864d33a811"
   end
 
   def install
